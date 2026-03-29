@@ -1,7 +1,7 @@
 # User Story Template
 
 **Title:**
-_As a [user role], I want [feature/goal], so that [reason]._
+As a [user role], I want [feature/goal], so that [reason]._
 
 **Acceptance Criteria:**
 1. [Criteria 1]
@@ -13,7 +13,7 @@ _As a [user role], I want [feature/goal], so that [reason]._
 **Notes:**
 - [Additional information or edge cases]
 **Title:**
-_As an administrator, I want to log in to the portal using my username and password, so that I can securely manage the platform.
+As an administrator, I want to log in to the portal using my username and password, so that I can securely manage the platform.
 
 **Acceptance Criteria:**
 
@@ -30,7 +30,7 @@ _As an administrator, I want to log in to the portal using my username and passw
 * Consider session management and timeout.
 
 **Title:**
-_As an administrator, I want to log out of the portal, so that I can protect access to the system.
+As an administrator, I want to log out of the portal, so that I can protect access to the system.
 
 **Acceptance Criteria:**
 
@@ -46,7 +46,7 @@ _As an administrator, I want to log out of the portal, so that I can protect acc
 * Ensure session invalidation on logout.
 
 **Title:**
-_As an administrator, I want to add doctors to the portal, so that I can manage healthcare professionals.
+As an administrator, I want to add doctors to the portal, so that I can manage healthcare professionals.
 
 **Acceptance Criteria:**
 
@@ -61,7 +61,7 @@ _As an administrator, I want to add doctors to the portal, so that I can manage 
 
 * Validate unique identifiers (e.g., email).
 **Title:**
-_As an administrator, I want to delete a doctor's profile, so that I can keep the system up to date.
+As an administrator, I want to delete a doctor's profile, so that I can keep the system up to date.
 
 **Acceptance Criteria:**
 
@@ -77,7 +77,7 @@ _As an administrator, I want to delete a doctor's profile, so that I can keep th
 * Handle related data (appointments, history).
 
 **Title:**
-_As an administrator, I want to execute a stored procedure to get the number of appointments per month, so that I can monitor system usage.
+As an administrator, I want to execute a stored procedure to get the number of appointments per month, so that I can monitor system usage.
 
 **Acceptance Criteria:**
 
@@ -94,7 +94,7 @@ _As an administrator, I want to execute a stored procedure to get the number of 
 * Consider displaying results in dashboard charts.
 
 **Title:**
-_As a patient, I want to view a list of doctors without logging in, so that I can explore available options before signing up.
+As a patient, I want to view a list of doctors without logging in, so that I can explore available options before signing up.
 
 **Acceptance Criteria:**
 
@@ -109,7 +109,7 @@ _As a patient, I want to view a list of doctors without logging in, so that I ca
 
 * Consider pagination and filtering options.
 **Title:**
-_As a patient, I want to register using my email and password, so that I can book appointments.
+As a patient, I want to register using my email and password, so that I can book appointments.
 
 **Acceptance Criteria:**
 
@@ -125,7 +125,7 @@ _As a patient, I want to register using my email and password, so that I can boo
 * Password must be hashed.
 * Validate email uniqueness.
 **Title:**
-_As a patient, I want to log in to the portal, so that I can manage my appointments.
+  As a patient, I want to log in to the portal, so that I can manage my appointments.
 
 **Acceptance Criteria:**
 
@@ -140,7 +140,7 @@ _As a patient, I want to log in to the portal, so that I can manage my appointme
 
 * Implement secure session handling.
 **Title:**
-_As a patient, I want to log out of the portal, so that I can secure my account.
+As a patient, I want to log out of the portal, so that I can secure my account.
 
 **Acceptance Criteria:**
 
@@ -155,7 +155,7 @@ _As a patient, I want to log out of the portal, so that I can secure my account.
 
 * Ensure session invalidation.
 **Title:**
-_As a patient, I want to book a one-hour appointment with a doctor, so that I can receive medical consultation.
+As a patient, I want to book a one-hour appointment with a doctor, so that I can receive medical consultation.
 
 **Acceptance Criteria:**
 
@@ -172,7 +172,7 @@ _As a patient, I want to book a one-hour appointment with a doctor, so that I ca
 * Prevent overlapping appointments.
 * Consider notifications after booking.
 **Title:**
-_As a patient, I want to view my upcoming appointments, so that I can prepare accordingly.
+As a patient, I want to view my upcoming appointments, so that I can prepare accordingly.
 
 **Acceptance Criteria:**
 
@@ -187,7 +187,7 @@ _As a patient, I want to view my upcoming appointments, so that I can prepare ac
 
 * Sort appointments by date.
 **Title:**
-_As a doctor, I want to log in to the portal, so that I can manage my appointments.
+  As a doctor, I want to log in to the portal, so that I can manage my appointments.
 
 **Acceptance Criteria:**
 
@@ -204,7 +204,7 @@ _As a doctor, I want to log in to the portal, so that I can manage my appointmen
 
 
 **Title:**
-_As a doctor, I want to log out of the portal, so that I can protect my data.
+As a doctor, I want to log out of the portal, so that I can protect my data.
 
 **Acceptance Criteria:**
 
@@ -219,7 +219,7 @@ _As a doctor, I want to log out of the portal, so that I can protect my data.
 
 * Ensure session invalidation.
 **Title:**
-_As a doctor, I want to view my appointment calendar, so that I can stay organized.
+As a doctor, I want to view my appointment calendar, so that I can stay organized.
 
 **Acceptance Criteria:**
 
@@ -234,7 +234,7 @@ _As a doctor, I want to view my appointment calendar, so that I can stay organiz
 
 * Consider calendar view (daily/weekly/monthly).
 **Title:**
-_As a doctor, I want to set my unavailability, so that patients only see available time slots.
+As a doctor, I want to set my unavailability, so that patients only see available time slots.
 
 **Acceptance Criteria:**
 
@@ -249,7 +249,7 @@ _As a doctor, I want to set my unavailability, so that patients only see availab
 
 * Handle recurring unavailability (e.g., weekends).
 **Title:**
-_As a doctor, I want to update my profile with my specialization and contact details, so that patients have accurate information.
+As a doctor, I want to update my profile with my specialization and contact details, so that patients have accurate information.
 
 **Acceptance Criteria:**
 
@@ -264,7 +264,7 @@ _As a doctor, I want to update my profile with my specialization and contact det
 
 * Ensure data consistency across views.
 **Title:**
-_As a doctor, I want to view patient details for upcoming appointments, so that I can be prepared.
+As a doctor, I want to view patient details for upcoming appointments, so that I can be prepared.
 
 **Acceptance Criteria:**
 
