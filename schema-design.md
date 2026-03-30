@@ -21,6 +21,7 @@
 - date_of_birth:DATE(),NOT NULL
 - adresse : VARCHAR(100), NOT NULL
 - localization: VARCHAR(100)
+- password: VARCHAR(100), NOT NULL
 
 ### Table: doctor
 
@@ -33,6 +34,7 @@
 - adresse : VARCHAR(100), NOT NULL
 - grade : VARCHAR(20)
 - spécialization: VARCHAR(50)
+- password: VARCHAR(100), NOT NULL
 
 ### Table: Admin
 
@@ -45,6 +47,7 @@
 - adresse : VARCHAR(100), NOT NULL
 - grade : VARCHAR(20)
 - spécialization: VARCHAR(50)
+- password: VARCHAR(100), NOT NULL
 
 ### Table: clinic staff
 
@@ -58,6 +61,7 @@
 - grade : VARCHAR(20)
 - role : VARCHAR(20), NOT NULL
 - spécialization: VARCHAR(50)
+- password: VARCHAR(100), NOT NULL
 
 ### Table: clinic_locations
 
